@@ -1,0 +1,3 @@
+# Minimal Supabase CLI config — lets `npx supabase link` / `npx supabase db push`
+# run from automation-backend/ without `supabase init`.
+project_id = "linkedin-automation-suite"

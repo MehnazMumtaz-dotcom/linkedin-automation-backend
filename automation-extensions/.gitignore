@@ -1,0 +1,68 @@
+*.swp
+linkedin_user_scraper.egg-info
+linkedin_scraper.egg-info
+dist
+build
+__pycache__
+*.pyc
+chromedriver
+.DS_Store
+.vscode/
+.env/
+scrape.py
+creds.json
+venv
+*.zip
+.env
+.env.development
+.env.production
+
+# Test outputs
+*.log
+test_*.db
+test_linkedin.db
+test_summary.json
+results_*.json
+person_*.json
+*_improved.json
+
+# Debug scripts (keep debug_connection_selectors.py)
+debug_*.py
+!debug_connection_selectors.py
+
+# Backup files
+*_old.py
+*.backup
+
+# Session files (sensitive cookies)
+linkedin_session.json
+
+# Build artifacts
+MANIFEST
+MANIFEST.ini
+.pytest_cache/
+
+# Basic package build artifacts
+build-basic/
+dist-basic/
+
+# Node/Next
+node_modules/
+
+# Puppeteer
+felix_browser_profile/
+fb_puppeteer_profile/
+ig_puppeteer_profile/
+ig_puppeteer_profile_grow/
+xavier_puppeteer_inbox_profile/
+xavier_puppeteer_profile/
+*puppeteer_profile*/
+*.png
+fb_debug.json
+fb_graphql_payload.json
+ls_payloads.json
+final_reliable.json
+
+# AI Assistant files
+.claude/
+AGENTS.md
